@@ -41,6 +41,10 @@ class _MyHomePageState extends State<MyHomePage> {
             )
           ],
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => null,
+        child: const Icon(Icons.refresh),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
